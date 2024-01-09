@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 65vh;
+    border-radius: 30px;
+    background-color: aqua;
+    margin-top: 46px;
+}
+.container{
+    background-color: blanchedalmond;
+    max-width: 500px;
+    width: 110%;
+    padding: 20px;
+}
+ h1{
+    font-size: 35px;
+    text-align: center;
+ }   
+ input{
+    width: 80%;
+    margin: 0.9px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+ }
+.fa-add,.fa-search{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 10px;
+    border: 0
+    border-radius: 10px;
+ }
+ul li{
+    list-style: none;
+    width: 80%;
+    margin: 0.9px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+}
+.todolist{
+    position: relative;
+}
+.fa-trash{
+    position: absolute;
+    right: 20%;
+    background-color: red;
+    background-color: b   color: aliceblue;
+    padding: 10px 10px;
+    border: 0
+    border-radius: 10px;
+}

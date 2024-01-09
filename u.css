@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0; font-family: "poppin",sans-serif;
+}
+body{
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(154, 185, 175);
+  
+}
+.logo{
+    margin: 14px;
+    color: black;
+    font-size: 20px;
+ 
+}
+
+.container .ul-list ul{
+    display: flex;
+}
+.container .ul-list ul li{
+    padding: 0 15px;
+    list-style: none;
+    font-size: 15px;
+
+}
+.container .ul-list a{
+    text-decoration: none;
+}
+.button{
+    background: red;
+    color: aliceblue;
+    border-radius: 10px; 
+}
+.panner{
+    display: flex;
+}
+.nav-bar{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.nav-bar h2{
+    font-size: 15px;
+    color: red;
+}
+
+.nav-bar h4{
+    font-size: 13px;
+}
+.image{
+    right: 0x;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+.image img{
+    left: 1000px;
+}
+.box{
+    display: flex; 
+    align-items: left;
+    justify-content: left;
+    height: 10vh;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+    margin-left: 0;
+}
+.form-box input{
+    font-size: 18px;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+.form-box button{
+    color: red;
+    font-size: 19px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: azure;
+    cursor: pointer;
+
+}
+.form-box button :hover{
+    background: gray;
+}
+
+

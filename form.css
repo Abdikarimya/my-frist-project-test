@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+}
+body{
+    margin: 20px;
+    background-color: black;
+    color: aliceblue;
+    max-width: 600px;
+
+}
+
+.input-group{
+    width: 400px;
+    height: 24px;
+}
+button{
+    text-align: rights;
+}
+
+.container input{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
